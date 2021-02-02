@@ -1,0 +1,221 @@
+html {
+    background-color: #869960;
+    font-family: tahoma, sans-serif;
+    font-size: 87%;  
+}
+body {
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+
+}
+ul {
+
+}
+
+ul li {
+
+}
+
+ul li a {
+
+}
+
+
+img {
+    max-width: 525px;
+    height: auto;
+}
+/* Birds Background Demo*/
+
+.birds {
+    background-color: #c2bbb1;
+    background-image: url(./images/mobile.JPG);
+    background-position: center center;
+    background-size: 615px 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+}
+.birds p  {
+    margin: 0;
+    background-attachment: rgba(0, 0, 0, .7);
+    color: #fff;
+    text-shadow: 1px 1px 0 #000;
+     
+}
+/* Banner Overlay */
+
+.image-banner {
+    position: relative;
+
+}   
+.image-banner img {
+    display: block;
+}
+.banner-discription {
+    position: absolute;
+   bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgb(0, 0, 0, .45);
+    padding: 10px 20px;
+}
+
+
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (min-width: 1300px)
+body {
+    font-size: 17px;
+}
+ .container {
+    max-width: 1200px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+header {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #617140;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+header p {
+    margin: 0;
+}
+
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    
+}
+.site-nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+@media screen and (max-width: 700px) {
+    .site-nav li {
+        width: 33.33%;
+        margin-right: 0;
+    }
+    .site-nav a {
+        padding: 15px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+       text-align: center;
+
+    }
+}
+@media screen and (max-width: 480px) {
+    .site-nav li {
+        width: 50px;
+    }
+}
+
+
+/* End Navigation*/
+
+.content-area {
+    background-color: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+} 
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-top: 20px;
+    }
+} 
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 34%;
+    float: left;
+     background-color: #e5e9dc;
+     padding: 20px 40px;
+     box-sizing: border-box;
+     font-size: 85%;
+   
+}
+@media screen and (max-width: 700px) {
+    .main-area,
+    .sidebar {
+        width: auto;
+        float: none;
+    }
+    .main-area {
+        padding-right: 0;
+    }
+}
+  
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+
+
